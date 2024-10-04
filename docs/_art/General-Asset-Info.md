@@ -1,5 +1,14 @@
 This section of documentation goes over the art side of Starground, and what measures should be taken if modders want to emulate the vanilla art style. There's nothing wrong with mods having their own unique aesthetic, but sometimes fitting in is a better experience for players.
 
+## General "Rules"
+Some things that I do with all sprites are:
+
+* All outlines are solid black without anti-aliasing, except pixels that make direct contact to the ground (which should be grey).
+* All lighting comes from directly above for most sprites, and then only top-right when needed.
+* Excessive detail should be avoided in order to maintain readability and simplicity (detail stems from multiple sprites next to each other anyways).
+
+When in doubt, look at what sprites are already in the game!
+
 ## Color Palette
 Starground uses a modified version of the Endesga color palette [here.](https://lospec.com/palette-list/endesga-32) Some common additional colors and their hex codes are:
 * 35354C
@@ -21,12 +30,3 @@ Starground is centered around the standard tile size, which is 16x16. All assets
 * Icons (16x16 with a 1px transparent gap on all sides)
 
 It's important to remember that resolution will correlate to size. A building with a 32x32 resolution should be 2x2 tiles big, otherwise sprites can start to look odd.
-
-## General "Rules"
-Some things that I do with all sprites are:
-
-* All outlines are solid black without anti-aliasing, except pixels that make direct contact to the ground (which should be grey).
-* All lighting comes from directly above for most sprites, and then only top-right when needed.
-* Excessive detail should be avoided in order to maintain readability and simplicity (detail stems from multiple sprites next to each other anyways).
-
-When in doubt, look at what sprites are already in the game!
