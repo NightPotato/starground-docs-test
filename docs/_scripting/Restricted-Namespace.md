@@ -1,4 +1,4 @@
-# About Restricted Namespaces or Godot Classes
+# About Restrictions
 Due to the nature of modding, some classes/namespaces from Godot are blocked within the ModLoader. A list of these restrictions are able to be found below and alternitive methods have been added within the `ModAPI` class to help restore some of the methods needed for modding.
 
 ### Restricted Godot Namespaces/Classes
