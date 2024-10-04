@@ -7,10 +7,13 @@ Mod projects require a few things:
 1. Mods need to be made inside of Godot 4.3
 2. Mods need to export GDScript as text (more on that in exporting)
 3. Mods require an info.json file. An example can be found inside of templates.
-4. Dangerous classes are disallowed (OS, FileAccess, DirAccess, IP, and ResourceLoader). Mods are scanned on load, and will fail to load if containing these.
 
 ## Game Version
 Mods can support multiple versions of the base game as long as they are still compatible. To see your current game version, take a look at the number on the bottom of the screen. The version should be a number without any letters (e.x 0.9.0.0, 0.8.3.0).
+
+## Important Notes
+ * [Restricted Classes/Namespaces](_scripting/Restricted-Namespace.md)
+ * [Info.json Explained](_general/info-JSON.md)
 
 ## Modding
 Modding is pretty flexible, since it's done through Godot. This allows you to do all sorts of things, like:
