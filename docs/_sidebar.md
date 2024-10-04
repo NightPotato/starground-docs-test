@@ -2,7 +2,8 @@
     * [Home](README.md)
     * [Getting Started](_general/Getting-Started-With-Modding.md)
 * Asset Guides
-    * [Art Guide](_art/Art-Guide.md)
+    * [General Asset Information](_art/General-Asset-Info.md)
+    * [Asset Creation Tools](_art/Asset-Creation-Tool.md)
 * Scripting Guides
     * [Components](_scripting/Components.md)
     * [Classes](_scripting/Classes.md)

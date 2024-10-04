@@ -1,10 +1,5 @@
 This section of documentation goes over the art side of Starground, and what measures should be taken if modders want to emulate the vanilla art style. There's nothing wrong with mods having their own unique aesthetic, but sometimes fitting in is a better experience for players.
 
-## Drawing Program
-All art for Starground is done in [paint.net](https://www.getpaint.net/) (different from Microsoft Paint!). However, I don't recommend this unless you're on Windows, need a general multi-purpose program, and need something free.
-
-I recommend using [Aseprite](https://www.aseprite.org/), which is currently one of the best and most feature-rich pixel art programs. The source code is available here on GitHub, and can be installed for free if you compile it yourself. 
-
 ## Color Palette
 Starground uses a modified version of the Endesga color palette [here.](https://lospec.com/palette-list/endesga-32) Some common additional colors and their hex codes are:
 * 35354C
