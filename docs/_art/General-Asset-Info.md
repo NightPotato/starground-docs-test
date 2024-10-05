@@ -23,7 +23,7 @@ Typically I recommend using the base colors of the Endesga palette, but don't be
 ## Asset Sizes
 Starground is centered around the standard tile size, which is 16x16. All assets in the game are typically a multiple of this tile size, or use it as a frame of reference in some way. Some common sizes are:
 
-* Buildings (typically a multiple of a tile, like 16x16, 32x32, 48x48, etc)
+* Buildings (typically a multiple of a tile, like 16x16, 32x32, 48x48, etc.)
 * Items (12x12 for most items)
 * Weapons (varies greatly since sprite size determines reach, but usually around 8x16 for sword-type components)
 * Entities (16x16 for player-sized entities, otherwise usually 32x32)

@@ -19,18 +19,15 @@ Mod Developers are required to include a JSON Schema that contains information a
 ```
 
 ### Important Fields within `info.json`
-> Script | This is the entry-point of the mod and is loaded automatically by the Mod Loader.
 
-> Data.ID | This is the identifier for your mod. Must be Unique.
-
-> Data.DisplayName | Name of your mod.
-
-> Data.ModVersion | The current version of your mod.
-
-> Data.Description | A Description of your mod and what it does.
-
-> Data.GameVersions | An Array of supported Game Versions that your mod works on.
-
-> Data.Author | The Author of the mod. (You)
-
-> Data.Dependencies | This is not yet used, hopefully will be implemented soon to control what mods have a dependency.
+| Key                                 | Description of Usage                                                                             |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Format<br>(int)                     | Used by Jesse for marking modding api format changes.                                            |
+| Script<br>(String)                  | Entry resource that will autoload on Mod Load.                                                   |
+| Data.ID<br>(String)                 | This is the identifier for your mod. Must be `Unique`.                                           |
+| Data.DisplayName<br>(String)        | Name of your mod.                                                                                |
+| Data.ModVersion<br>(String)         | The current version of your mod.                                                                 |
+| Data.Description                    | A description of your mod and what it does.                                                      |
+| Data.GameVersions<br>(String Array) | An Array of supported Game Versions that your mod works on.                                      |
+| Data.Author<br>(String)             | The Author of the mod. (You)                                                                     |
+| Data.Dependencies<br>(String Array) | This is not yet used, hopefully will be implemented soon to control what mods have a dependency. |

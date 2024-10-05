@@ -10,3 +10,6 @@
     * [Components](_scripting/Components.md)
     * [Classes](_scripting/Classes.md)
     * [Data Tables and Tags](_scripting/Data-Tables-and-Their-Tags.md)
+    * [ModAPI Class](_scripting/ModAPI.md)
+* Examples
+	* [Mod List](_general/mod_list.md)
