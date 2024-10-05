@@ -1,7 +1,10 @@
 * General
     * [Home](README.md)
-    * [Getting Started](_general/Getting-Started-With-Modding.md)
-    * [Info.json Explained](_general/Info-JSON.md)
+    * Getting Started
+	    * [Your First Mod](_general/Getting-Started-With-Modding.md)
+	    * [Tips & Tricks](_general/tips-and-tricks.md)
+	    * [Modding Possibilities](_general/what-is-possible.md)
+	    * [Info.json Explained](_general/Info-JSON.md)
 * Asset Guides
     * [General Asset Information](_art/General-Asset-Info.md)
     * [Asset Creation Tools](_art/Asset-Creation-Tool.md)
